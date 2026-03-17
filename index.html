@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gcm</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #58a6ff;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #8b949e;
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6e7681;
+    }
+  </style>
+</head>
+<body>
+  <h1>gcm</h1>
+  <p>Welcome to the <strong>gcm</strong> project. This site is hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
+  <footer>
+    &copy; <span id="year"></span> gcm
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
